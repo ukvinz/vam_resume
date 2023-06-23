@@ -21,7 +21,7 @@ timezone: Asia/Shanghai
 
 title: Space x Offsaying                          # the main title
 
-tagline: Plan, prioritize, execute   # it will display as the sub-title
+tagline: Keep Calm & Carry On   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   None
@@ -35,12 +35,12 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Yu Chen
-  email: me@linhan.email             # change to your email address
+  name: Offsaying
+  email: offsaying@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/linhandev       # change to your github homepage
-    - https://www.linkedin.com/in/linhandev
+    - https://github.com/offsaying       # change to your github homepage
+    - https://www.linkedin.com/in/offsaying
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -94,7 +94,7 @@ comments:
   #   issue_term: pathname  # < url | pathname | title | ...>
   # # Giscus options › https://giscus.app
   giscus:
-    repo: linhandev/blog-comment             # <gh-username>/<repo>
+    repo: offsaying/blog-comment             # <gh-username>/<repo>
     repo_id: R_kgDOIr1Vzw
     category: Announcements
     category_id: DIC_kwDOIr1Vz84CTSdK
@@ -157,7 +157,7 @@ defaults:
       layout: page
       permalink: /:title/
   - scope:
-      path: assets/img/favicons
+      path: assets/img/avatar.jpeg
     values:
       swcache: true
   - scope:
