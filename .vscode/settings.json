@@ -1,0 +1,8 @@
+{
+    "cSpell.words": [
+        "dietpi",
+        "kwargs",
+        "nextcloud"
+    ],
+    "python.formatting.provider": "black"
+}
