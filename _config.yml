@@ -80,7 +80,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://github.com/Offsaying/OS_Mars/assets/120654757/c5ffe043-ea59-4443-8131-f49a4a80a213
+avatar: https://github.com/Offsaying/OS_Mars/assets/120654757/371d2860-691b-4c15-82b7-299b0c966132
 
 # boolean type, the global switch for TOC in posts.
 toc: true
