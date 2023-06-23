@@ -68,7 +68,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: light  # [light|dark]
+theme_mode: black  # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -94,7 +94,7 @@ comments:
   #   issue_term: pathname  # < url | pathname | title | ...>
   # # Giscus options › https://giscus.app
   giscus:
-    repo: offsaying/blog-comment             # <gh-username>/<repo>
+    repo: linhandev/blog-comment             # <gh-username>/<repo>
     repo_id: R_kgDOIr1Vzw
     category: Announcements
     category_id: DIC_kwDOIr1Vz84CTSdK
