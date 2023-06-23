@@ -20,25 +20,25 @@ timezone:
 
 title: Offsaying
 
-tagline:  Math student, Coder 
+tagline: Math & CS & Running
 
 description: >- # used by seo meta and the atom feed
- Offsaying's Website
+  Blog, Offsaying, Github
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://offsaying.com"
 
 github:
-  username: Offsaying 
+  username: Offsaying # change to your github username
 
 twitter:
-  username: Offsaying
+  username: Offsaying # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Offsaying
-  email: Offsaying@gmail.com # change to your email address
+  name: Yu Chen
+  email: offsaying@gmail.com
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your twitter homepage
@@ -80,7 +80,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://github.com/Offsaying/OS_Mars/assets/120654757/02fd80ec-e50e-4ab0-a4a6-8d6cc8a44047
+avatar: https://github.com/Offsaying/OS_Mars/assets/120654757/371d2860-691b-4c15-82b7-299b0c966132
 
 # boolean type, the global switch for TOC in posts.
 toc: true
