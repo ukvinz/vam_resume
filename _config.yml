@@ -19,28 +19,28 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Space x Offsaying                          # the main title
+title: Lin's Blog                          # the main title
 
-tagline: Keep Calm & Carry On   # it will display as the sub-title
+tagline: Plan, prioritize, execute   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  None
+  Some notes Lin took along the way
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://offsaying.github.io/'
+url: 'https://linhandev.github.io/'
 
 github:
-  username: Offsaying             # change to your github username
+  username: linhandev             # change to your github username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Offsaying
-  email: offsaying@gmail.com             # change to your email address
+  name: Lin Han
+  email: me@linhan.email             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/offsaying       # change to your github homepage
-    - https://www.linkedin.com/in/offsaying
+    - https://github.com/linhandev       # change to your github homepage
+    - https://www.linkedin.com/in/linhandev
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -63,6 +63,11 @@ google_analytics:
 # and there will be a toggle to switch the theme between dark and light
 # on the bottom left of the sidebar.
 #
+# Available options:
+#
+#     light  - Use the light color scheme
+#     dark   - Use the dark color scheme
+#
 theme_mode: dark  # [light|dark]
 
 # The CDN endpoint for images.
@@ -73,7 +78,7 @@ theme_mode: dark  # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://github.com/Offsaying/OS_Mars/assets/120654757/371d2860-691b-4c15-82b7-299b0c966132
+avatar: https://linhandev.github.io/assets/img/avatar.jpeg
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -101,7 +106,7 @@ comments:
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
-    enabled: true # boolean, keep empty means false
+    enabled: # boolean, keep empty means false
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
     env: # [development|production]
@@ -195,4 +200,3 @@ jekyll-archives:
 
 plugins:
   - jemoji
-  
