@@ -19,28 +19,28 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Offsaying                          # the main title
+title: Offsaying                         # the main title
 
-tagline: Keep Calm & Carry On   # it will display as the sub-title
+tagline: Plan, prioritize, execute   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  
+  Some notes Lin took along the way
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://offsaying.github.io/'
+url: 'https://linhandev.github.io/'
 
 github:
-  username: Offsaying             # change to your github username
+  username: linhandev             # change to your github username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Offsaying
-  email: offsaying@gmail.com             # change to your email address
+  name: Lin Han
+  email: me@linhan.email             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/offsaying       # change to your github homepage
-    - https://www.linkedin.com/in/offsaying
+    - https://github.com/linhandev       # change to your github homepage
+    - https://www.linkedin.com/in/linhandev
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
