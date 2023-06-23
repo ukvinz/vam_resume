@@ -19,23 +19,23 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Lin's Blog                          # the main title
+title: Space x Offsaying                          # the main title
 
 tagline: Plan, prioritize, execute   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Some notes Lin took along the way
+  None
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://linhandev.github.io/'
+url: 'https://offsaying.github.io/'
 
 github:
-  username: linhandev             # change to your github username
+  username: Offsaying             # change to your github username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Lin Han
+  name: Yu Chen
   email: me@linhan.email             # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -68,7 +68,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark  # [light|dark]
+theme_mode: light  # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -78,7 +78,7 @@ theme_mode: dark  # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://linhandev.github.io/assets/img/avatar.jpeg
+avatar: https://github.com/Offsaying/OS_Mars/assets/120654757/371d2860-691b-4c15-82b7-299b0c966132
 
 # boolean type, the global switch for ToC in posts.
 toc: true
