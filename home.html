@@ -1,0 +1,318 @@
+<!DOCTYPE html>  
+<html>   
+<head> 
+<meta charset=" utf-8" />
+<meta name="viewport" content="width=device-width" />
+<title>ᐠ( ᐢ ᵕ ᐢ )ᐟ~Happy!~</title>
+<!--====================================== style ===============================================-->
+<!--html body-->
+<style>
+html body {
+width: 100%;
+height: 100%;
+background-repeat: no-repeat;
+margin: 0;
+padding: 0;
+font-family: Verdana;
+font-size: 17px;
+font-weight: 1000;
+line-height: 2.5;
+color: white;
+background-color:transparent;
+overflow: initial;
+box-sizing: border-box;
+word-wrap: break-word;
+}
+</style>
+<!--====================================== Links and Scripts1 ===============================================-->
+<script src="js/three.min.js"></script>
+<script src="js/postprocessing.min.js"></script>
+<script src="js/InfiniteLights.js"></script>
+<script src="js/Distortions.js"></script>
+	
+<link href="https://fonts.googleapis.com/css?family=Kanit:500,900" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/base_trail.css" />
+<link rel="stylesheet" media="screen" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/base.css" />
+</head>
+<!--====================================== Main ===============================================-->
+
+	
+<div id="particles-js"></div>
+
+<div id="app"></div>
+<script>
+		(function() {
+
+			const container = document.getElementById('app');
+
+			const options = {
+				onSpeedUp: (ev) => {					
+				},
+				onSlowDown: (ev) => {
+				},
+				// mountainDistortion || LongRaceDistortion || xyDistortion || turbulentDistortion || turbulentDistortionStill || deepDistortionStill || deepDistortion
+				distortion: turbulentDistortion, 
+				
+				length: 400,
+				roadWidth: 10,
+				islandWidth: 2,
+				lanesPerRoad: 3,
+
+				fov: 90,
+				fovSpeedUp: 150,
+				speedUp: 2,
+				carLightsFade: 0.4,
+
+				totalSideLightSticks: 20,
+				lightPairsPerRoadWay: 40,
+
+				// Percentage of the lane's width
+				shoulderLinesWidthPercentage: 0.05,
+				brokenLinesWidthPercentage: 0.1,
+				brokenLinesLengthPercentage: 0.5,
+
+				/*** These ones have to be arrays of [min,max].  ***/
+				lightStickWidth: [0.12, 0.5],
+				lightStickHeight: [1.3, 1.7],
+
+				movingAwaySpeed: [60, 80],
+				movingCloserSpeed: [-120, -160],
+
+				/****  Anything below can be either a number or an array of [min,max] ****/
+
+				// Length of the lights. Best to be less than total length
+				carLightsLength: [400 * 0.03, 400 * 0.2],
+				// Radius of the tubes
+				carLightsRadius: [0.05, 0.14],
+				// Width is percentage of a lane. Numbers from 0 to 1
+				carWidthPercentage: [0.3, 0.5],
+				// How drunk the driver is.
+				// carWidthPercentage's max + carShiftX's max -> Cannot go over 1. 
+				// Or cars start going into other lanes 
+				carShiftX: [-0.8, 0.8],
+				// Self Explanatory
+				carFloorSeparation: [0, 5],
+
+				colors: {
+					roadColor: 0x080808,
+					islandColor: 0x0a0a0a,
+					background: 0x000000,
+					shoulderLines: 0x131318,
+					brokenLines: 0x131318,
+					/***  Only these colors can be an array ***/
+					leftCars: [0xD856BF, 0x6750A2, 0xC247AC],
+					rightCars: [0x03B3C3, 0x0E5EA5, 0x324555],
+					sticks: 0x03B3C3,
+				}
+			};
+
+			const myApp = new App(container, options);
+			myApp.loadAssets().then(myApp.init)
+		})()
+</script>
+	
+		<div class="content">
+			<div class="content__slide">
+				<div class="frame">
+					<div class="frame__links" >
+						<a style="text-decoration: none;color:#d40749;font-family: Kanit;font-weight: 900;font-size:140%;" href="https://offsaying.github.io/OS_Mars/STUDY/">Open</a>
+					</div>
+				</div>
+				<div class="content__img">
+					<div class="content__img-inner" style="background-image: url(https://github.com/Offsaying/OS_Mars/assets/120654757/7a34dfa1-c73b-4d99-bc3c-c4a23059bcbd);"></div>
+				</div>
+				<div class="content__text-wrap">
+					<span class="content__text">
+							<span class="content__text-inner content__text-inner--stroke">Study</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner">Study</span>
+					</span>
+					<span class="content__text content__text--full">
+							<span class="content__text-inner content__text-inner--stroke">Study</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner content__text-inner--stroke">Study</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner">Study</span>
+					</span>
+					<span class="content__text content__text--full">
+							<span class="content__text-inner">Study</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner content__text-inner--bottom">Study</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner">Study</span>
+					</span>
+					<span class="content__text content__text--full">
+							<span class="content__text-inner content__text-inner--stroke">Study</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner content__text-inner--stroke content__text-inner--bottom">Study</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner">Study</span>
+					</span>
+				</div>
+			</div>
+			<div class="content__slide">
+				<div class="frame">
+					<div class="frame__links" >
+						<a style="text-decoration: none;color:#d40749;font-family: Kanit;font-weight: 900;font-size:140%;" href="https://offsaying.github.io/OS_Jupiter">Open</a>
+					</div>
+				</div>			
+				<div class="content__img">
+					<div class="content__img-inner" style="background-image: url(https://github.com/Offsaying/OS_Mars/assets/120654757/adc31e8a-823c-401f-a79f-041842809d93);"></div>
+				</div>
+				<div class="content__text-wrap">
+					<span class="content__text">
+							<span class="content__text-inner content__text-inner--stroke">My-Proj</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner">My-Proj</span>
+					</span>
+					<span class="content__text content__text--full">
+							<span class="content__text-inner content__text-inner--stroke">My-Proj</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner content__text-inner--stroke">My-Proj</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner">My-Proj</span>
+					</span>
+					<span class="content__text content__text--full">
+							<span class="content__text-inner">My-Proj</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner content__text-inner--bottom">My-Proj</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner">My-Proj</span>
+					</span>
+					<span class="content__text content__text--full">
+							<span class="content__text-inner content__text-inner--stroke">My-Proj</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner content__text-inner--stroke content__text-inner--bottom">My-Proj</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner">My-Proj</span>
+					</span>
+				</div>
+			</div>
+			<div class="content__slide">
+				<div class="frame">
+					<div class="frame__links" >
+						<a style="text-decoration: none;color:#d40749;font-family: Kanit;font-weight: 900;font-size:140%;" href="https://offsaying.github.io/OS_Jupiter">Open</a>
+					</div>
+				</div>
+				<div class="content__img">
+					<div class="content__img-inner" style="background-image: url(https://github.com/Offsaying/OS_Mars/assets/120654757/50000554-534b-4692-aec9-5e9688d466ea);"></div>
+				</div>
+				<div class="content__text-wrap">
+					<span class="content__text">
+							<span class="content__text-inner content__text-inner--stroke">Pastime</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner">Pastime</span>
+					</span>
+					<span class="content__text content__text--full">
+							<span class="content__text-inner content__text-inner--stroke">Pastime</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner content__text-inner--stroke">Pastime</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner">Pastime</span>
+					</span>
+					<span class="content__text content__text--full ">
+							<span class="content__text-inner">Pastime</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner content__text-inner--bottom">Pastime</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner">Pastime</span>
+					</span>
+					<span class="content__text content__text--full">
+							<span class="content__text-inner content__text-inner--stroke">Pastime</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner content__text-inner--stroke content__text-inner--bottom">Pastime</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner">Pastime</span>
+					</span>
+				</div>
+			</div>
+			<div class="content__slide">
+				<div class="frame">
+					<div class="frame__links" >
+						<a style="text-decoration: none;color:#d40749;font-family: Kanit;font-weight: 900;font-size:140%;" href="https://offsaying.github.io/OS_Jupiter">Open</a>
+					</div>
+				</div>
+				<div class="content__img">
+					<div class="content__img-inner" style="background-image: url(https://github.com/Offsaying/OS_Mars/assets/120654757/e56b0301-11e3-4358-9064-c2eca0348642);"></div>
+				</div>
+				<div class="content__text-wrap">
+					<span class="content__text">
+							<span class="content__text-inner content__text-inner--stroke">X-World</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner">X-World</span>
+					</span>
+					<span class="content__text content__text--full">
+							<span class="content__text-inner content__text-inner--stroke">X-World</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner content__text-inner--stroke">X-World</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner">X-World</span>
+					</span>
+					<span class="content__text content__text--full ">
+							<span class="content__text-inner">X-World</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner content__text-inner--bottom">X-World</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner">X-World</span>
+					</span>
+					<span class="content__text content__text--full">
+							<span class="content__text-inner content__text-inner--stroke">X-World</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner content__text-inner--stroke content__text-inner--bottom">X-World</span>
+					</span>
+					<span class="content__text">
+							<span class="content__text-inner">X-World</span>
+					</span>
+				</div>
+			</div>
+			<nav class="content__nav">
+				<button class="content__nav-button content__nav-button--prev"></button>
+				<button class="content__nav-button content__nav-button--next">Next</button>
+			</nav>
+		</div>
+	
+
+<!--====================================== Scripts2 ===============================================-->
+
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+<script src=https://cdn.jsdelivr.net/gh/Offsaying/Nocode_2/os_html_src_1.js></script> <!--点击樱花-->
+<script type="text/javascript" src=https://cdn.jsdelivr.net/gh/Offsaying/Nocode_2/os_html_src_sakura.js></script><!--樱花-->
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/TweenMax.min.js"></script>
+<script src="js/demo1_trail.js"></script>
+
+
+</body>
+</html>
+
+
+

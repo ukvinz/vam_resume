@@ -1,0 +1,56 @@
+.hidden {
+	position: absolute;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+}
+
+
+.btn {
+	z-index: 1000;
+	position: fixed;
+	top:2%;
+	right: 49%;
+	cursor: pointer;
+	border: none;
+	background: none;
+}
+
+.btn:focus {
+	outline: none;
+}
+
+.btn--search {
+	color:white;
+	font-size: 1.7em;
+}
+@media screen and (max-width: 60em) {
+	.btn {
+	top:1%;
+	right: 46%;
+}
+
+}
+
+
+
+/* Reset Search Input */
+
+.search__input {
+	border: 0;
+	background: transparent;
+
+}
+
+.search__input:focus {
+	outline: none;
+}
+
+.icon {
+	width: 1.5em;
+	height: 1.5em;
+}
+
+
+
