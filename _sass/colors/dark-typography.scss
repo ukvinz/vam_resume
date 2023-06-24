@@ -4,14 +4,14 @@
 
 @mixin dark-scheme {
   /* Framework color */
-  --main-bg: #27282C;
+  --main-bg: black;
   --mask-bg: red; 
   --main-border-color: #00ffff;   
 
   /* Common color */
-  --text-color: white;
+  --text-color: white; /*文字*/
   --text-muted-color: white;
-  --heading-color: red;
+  --heading-color: white; /* 标题 */
   --blockquote-border-color: rgb(66, 66, 66);
   --blockquote-text-color: rgb(117, 117, 117);
   --link-color: rgb(138, 180, 248);
