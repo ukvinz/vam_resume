@@ -4,14 +4,14 @@
 
 @mixin dark-scheme {
   /* Framework color */
-  --main-bg: yellow;
-  --mask-bg: green;
-  --main-border-color: blue;   
+  --main-bg: #27282C;
+  --mask-bg: red;
+  --main-border-color: #00ffff;   
 
   /* Common color */
   --text-color: white;
   --text-muted-color: white;
-  --heading-color: #cccccc;
+  --heading-color: red;
   --blockquote-border-color: rgb(66, 66, 66);
   --blockquote-text-color: rgb(117, 117, 117);
   --link-color: rgb(138, 180, 248);
@@ -22,7 +22,7 @@
   --btn-backtotop-border-color: var(--btn-border-color);
   --btn-box-shadow: var(--main-bg);
   --card-header-bg: rgb(48, 48, 48);
-  --label-color: rgb(108, 117, 125);
+  --label-color: red;
   --checkbox-color: rgb(118, 120, 121);
   --checkbox-checked-color: var(--link-color);
   --img-bg: radial-gradient(circle, rgb(22, 22, 24) 0%, rgb(32, 32, 32) 100%);
