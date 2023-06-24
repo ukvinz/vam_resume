@@ -4,8 +4,8 @@
 
 @mixin dark-scheme {
   /* Framework color */
-  --main-bg: black;
-  --mask-bg: red; 
+  --main-bg: black; /*总的背景颜色*/
+  --mask-bg: yellow; 
   --main-border-color: #00ffff;   
 
   /* Common color */
