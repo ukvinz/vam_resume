@@ -18,15 +18,15 @@ timezone: Africa/Cairo
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Ahmed Tremo # the main title
+title: Offsaying # the main title
 
-tagline: My personal blog # it will display as the sub-title
+tagline: Keep Calm and Carry On # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   AhmedTremo, Blog, Github, Machine Learning, Python
   
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://ahmedtremo.github.io"
+url: "https://Offsaying.github.io"
 
 github:
   username: ahmedtremo # change to your github username
@@ -37,7 +37,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Ahmed Tremo
+  name: Offsaying
   email: ahmedtremoo@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
