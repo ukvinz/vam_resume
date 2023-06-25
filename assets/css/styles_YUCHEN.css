@@ -1,107 +1,3 @@
-/*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-@font-face {
-    font-family:Poppins;
-    src:url("https://offsaying.github.io/assets/font/Monaco.ttf"); 
-}
-/*=============== VARIABLES CSS ===============*/
-:root {
-  --header-height: 3.5rem;
-
-  /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
-  /* 
-      Change favorite color
-      Default: hsl(162, 100%, 40%)
-      Orange: hsl(14, 100%, 65%) - Blue: hsl(210, 100%, 70%)
-      Pink: hsl(356, 100%, 75%) - Purple: hsl(250, 100%, 75%)
-
-      For more colors visit: https://colors.dopely.top/color-pedia
-      -> Choose any color 
-      -> click on tab (Color Conversion)
-      -> Copy the color mode (HSL)
-  */
-
-  --hue: 162;
-  --first-color: hsl(var(--hue), 100%, 40%);
-  --first-color-alt: hsl(var(--hue), 56%, 35%);
-  --title-color: hsl(228, 8%, 95%);
-  --text-color: hsl(228, 8%, 65%);
-  --body-color: hsl(228, 15%, 20%);
-  --container-color: hsl(228, 15%, 15%);
-
-  /*========== Font and typography ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: "Poppins", sans-serif;
-  --biggest-font-size: 2rem;
-  --bigger-font-size: 1.25rem;
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1rem;
-  --normal-font-size: 0.938rem;
-  --small-font-size: 0.813rem;
-  --smaller-font-size: 0.75rem;
-
-  /*========== Font weight ==========*/
-  --font-regular: 400;
-  --font-medium: 500;
-  --font-semi-bold: 600;
-
-  /*========== z index ==========*/
-  --z-tooltip: 10;
-  --z-fixed: 100;
-}
-
-/*========== Responsive typography ==========*/
-@media screen and (min-width: 1152px) {
-  :root {
-    --biggest-font-size: 4rem;
-    --bigger-font-size: 2rem;
-    --h1-font-size: 2.25rem;
-    --h2-font-size: 1.5rem;
-    --h3-font-size: 1.25rem;
-    --normal-font-size: 1rem;
-    --small-font-size: 0.875rem;
-    --smaller-font-size: 0.813rem;
-  }
-}
-
-/*=============== BASE ===============*/
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-input,
-textarea,
-button,
-body {
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-}
-
-body {
-  cursor:url("https://github.com/Offsaying/OS_Mars/assets/120654757/808659fc-c424-4024-8926-85b16a470dae"),auto;
-  background-color: var(--body-color);
-  color: var(--text-color);
-}
-
-input,
-textarea,
-button {
-  outline: none;
-  border: none;
-}
-
-h1,
-h2,
-h3,
-h4,
 h5,
 h6 {
   color: var(--title-color);
@@ -117,6 +13,7 @@ ul {
 }
 
 a {
+  cursor:url("https://github.com/Offsaying/OS_Mars/assets/120654757/1c511a45-51e7-4d79-9914-44edcaddb82c"),auto;
   text-decoration: none;
 }
 
@@ -178,7 +75,6 @@ svg {
 }
 
 .nav {
-  
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
@@ -186,7 +82,7 @@ svg {
 }
 
 .nav__logo {
-  cursor:url("https://github.com/Offsaying/OS_Mars/assets/120654757/891979f9-1564-4d0c-a68c-bf8dd55c7f12"),auto;
+  cursor:url("https://github.com/Offsaying/OS_Mars/assets/120654757/1c511a45-51e7-4d79-9914-44edcaddb82c"),auto;
   color: var(--title-color);
   font-weight: var(--font-medium);
 }
@@ -226,7 +122,6 @@ svg {
 }
 
 .nav__link {
-  cursor:url("https://github.com/Offsaying/OS_Mars/assets/120654757/891979f9-1564-4d0c-a68c-bf8dd55c7f12"),auto;
   color: var(--title-color);
   font-weight: var(--font-medium);
   transition: color 0.4s;
@@ -345,7 +240,7 @@ svg {
 
 /*=============== BUTTON ===============*/
 .button {
-  cursor:url(https://github.com/Offsaying/OS_Mars/assets/120654757/30792aeb-3ab9-41a3-be21-ce22eb391907),auto;
+  cursor:url("https://github.com/Offsaying/OS_Mars/assets/120654757/1c511a45-51e7-4d79-9914-44edcaddb82c"),auto;
   display: inline-block;
   background-color: var(--first-color);
   padding: 1rem 1.75rem;
@@ -356,6 +251,7 @@ svg {
 }
 
 .button:hover {
+  
   box-shadow: 0 8px 24px hsla(var(--hue), 100%, 40%, 0.25);
 }
 
