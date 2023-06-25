@@ -101,9 +101,15 @@ button {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   color: var(--title-color);
   font-weight: var(--font-medium);
+}
+
+h7 {
+    font-size: 1px;
 }
 
 ul {
