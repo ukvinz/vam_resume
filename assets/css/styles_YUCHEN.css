@@ -86,7 +86,7 @@ body {
 }
 
 body {
-  cursor:url("https://github.com/Offsaying/OS_Mars/assets/120654757/affb7614-276f-4b43-96c1-f492afa846e8"),auto;
+  cursor:url("https://github.com/Offsaying/OS_Mars/assets/120654757/33e70e95-fb72-4cb3-a56a-11e2dc7122f9"),auto;
   background-color: var(--body-color);
   color: var(--text-color);
 }
@@ -186,7 +186,7 @@ svg {
 }
 
 .nav__logo {
-  cursor:url(https://github.com/Offsaying/OS_Mars/assets/120654757/30792aeb-3ab9-41a3-be21-ce22eb391907),auto;
+  cursor:url(),auto;
   color: var(--title-color);
   font-weight: var(--font-medium);
 }
