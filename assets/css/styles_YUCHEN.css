@@ -28,7 +28,7 @@
   --title-color: hsl(228, 8%, 95%);
   --text-color: hsl(228, 8%, 65%);
   --body-color: hsl(228, 15%, 20%);
-  --container-color: hsl(228, 15%, 15%);
+  --container-color:#db7093;
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -171,10 +171,9 @@ svg {
 
 /*=============== HEADER & NAV ===============*/
 .header {
-  
   position: fixed;
   width: 100%;
-  background-color: var(--container-color);
+  background-color: #db7093;
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
@@ -258,7 +257,7 @@ svg {
   position: absolute;
   width: 1000%;
   height: 100%;
-  background-color: hsla(0, 0%, 10%, 0.3);
+  background-color: white;
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px); /* For Safari */
   top: 0;
@@ -634,11 +633,11 @@ svg {
 ::-webkit-scrollbar {
   width: 0.6rem;
   border-radius: 0.5rem;
-  background-color: hsl(228, 12%, 25%);
+  background-color: white;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: hsl(228, 8%, 35%);
+  background-color: #818585;
   border-radius: 0.5rem;
 }
 
