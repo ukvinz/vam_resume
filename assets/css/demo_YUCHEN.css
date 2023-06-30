@@ -10,7 +10,7 @@
 .btn {
 	z-index: 1000;
 	position: fixed;
-	top:0%;
+	top:0.5%;
 	right: 49%;
 	cursor: pointer;
 	border: none;
@@ -27,7 +27,7 @@
 @media screen and (max-width: 60em) {
 	.btn {
 	top:0%;
-	right: 46%;
+	right: 45.5%;
 }
 
 }
